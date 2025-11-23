@@ -53,7 +53,7 @@ mongoose
   )
   .then(() => {
     app.listen(5000);
-	console.log('DB succesfully connected');
+	console.log('server connected');
   })
   .catch(err => {
     console.log(err);
