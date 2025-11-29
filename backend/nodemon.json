@@ -1,8 +1,0 @@
-{
-    "env": {
-        "DB_USER": "Prasad",
-        "DB_PASSWORD": "dbprasad",
-        "DB_NAME":"placesDB ",
-        "JWT_KEY":"supersecret_dont_share"
-    }
-}

@@ -49,11 +49,11 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.isntpa0.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
+    `mongodb+srv://Prasad:dbprasad@cluster0.isntpa0.mongodb.net/placesDB?retryWrites=true&w=majority`
   )
   .then(() => {
     app.listen(5000);
-	console.log('server connected');
+	console.log("Server connected");
   })
   .catch(err => {
     console.log(err);
